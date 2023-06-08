@@ -6,22 +6,36 @@ This repository contains the benchmarking scripts and dummy results for PostgreS
 # Contents
 benchmark_script.sh: Shell script to run the pgbench benchmark with various configurations.
 results.csv: Dummy benchmark results for PostgreSQL with different Huge Pages and THP configurations.
-Configuration Details
+
+
+## Configuration Details
 The following configurations were used for the benchmark:
 
+```bash 
 Huge Pages	Transparent Huge Pages (THP)
 Configuration	CPU Cores	RAM (GB)	
-Config A	4	8	Enabled	Enabled
+Config A	4	8	Enabled	
+
 Config B	8	16	Enabled	Enabled
+
 Config C	16	32	Enabled	Enabled
+
 Config D	8	64	Enabled	Enabled
+
 Config E	12	128	Enabled	Enabled
+
 Config F	4	32	Disabled	Enabled
+
 Config G	8	64	Disabled	Enabled
+
 Config H	16	128	Disabled	Enabled
+
 Config I	12	32	Disabled	Enabled
+
 Config J	8	16	Disabled	Disabled
-Benchmark Results
+```
+
+##Benchmark Results
 The results.csv file contains 100 dummy benchmark results for each configuration. The results include the following metrics:
 
 ## Transactions per Second (TPS): The number of transactions executed per second.

@@ -1,0 +1,49 @@
+Configuration 1: Default Configuration
+
+Clients: 10
+Threads: 2
+Duration: 300 seconds
+Benchmark Results:
+
+Average transactions per second: 1000
+Latency: 5ms
+CPU utilization: 80%
+Memory usage: 2GB
+Disk I/O: 1000 IOPS
+Configuration 2: Hugepages Enabled
+
+Clients: 20
+Threads: 4
+Duration: 600 seconds
+Benchmark Results:
+
+Average transactions per second: 2000
+Latency: 3ms
+CPU utilization: 90%
+Memory usage: 4GB
+Disk I/O: 1500 IOPS
+Configuration 3: Increased Shared Buffers
+
+Clients: 15
+Threads: 3
+Duration: 450 seconds
+Benchmark Results:
+
+Average transactions per second: 1800
+Latency: 4ms
+CPU utilization: 85%
+Memory usage: 3.5GB
+Disk I/O: 1200 IOPS
+Configuration 4: Read-Only Mode
+
+Clients: 5
+Threads: 1
+Duration: 180 seconds
+Benchmark Results:
+
+Average transactions per second: 500
+Latency: 10ms
+CPU utilization: 60%
+Memory usage: 1GB
+Disk I/O: 800 IOPS
+
